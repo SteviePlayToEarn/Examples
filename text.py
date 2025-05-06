@@ -37,3 +37,10 @@ sorted_results = sorted(zip(texts, similarities), key=lambda x: x[1], reverse=Tr
 print("Top similar texts:")
 for text, score in sorted_results[:3]:
     print(f"- {text} (similarity: {score:.3f})")
+
+
+# Top similar texts:
+# - The cat sits on the mat. (similarity: 0.91)
+# - This is a simple sentence about a cat. (similarity: 0.88)
+# - A dog is playing in the garden. (similarity: 0.65)
+
